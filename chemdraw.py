@@ -2,6 +2,7 @@ from dash import Dash, html
 import dash_bio as dashbio
 
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     dashbio.Jsme(
